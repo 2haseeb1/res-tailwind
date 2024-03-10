@@ -1,41 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#FF4240',
-          }
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
       }
-    }
-  </script>
-</head>
-<body>
+      footer {
+        margin-top: auto;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FF4240",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
     <nav class="bg-white text-gray-800 py-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <!-- Logo -->
-            <div class="font-bold text-primary">Logo</div>
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <div class="font-bold text-primary">Logo</div>
 
-            <!-- Navigation Links -->
-            <ul class="flex space-x-4">
-                <li>Home</li>
-                <li>About</li>
-                <li>Pages</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
+        <!-- Navigation Links -->
+        <ul class="flex space-x-4">
+          <li>Home</li>
+          <li>About</li>
+          <li>Pages</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
 
-            <!-- Get Ticket Button -->
-            <div>
-                <button class="bg-[#FF4240] hover:bg-blue-600 text-white px-4 py-2 rounded">Get Ticket</button>
-            </div>
+        <!-- Get Ticket Button -->
+        <div>
+          <button
+            class="bg-[#FF4240] hover:bg-blue-600 text-white px-4 py-2 rounded"
+          >
+            Get Ticket
+          </button>
         </div>
+      </div>
     </nav>
-</body>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+        <!-- Column 1: About Section -->
+        <div class="text-center">
+          <h3 class="text-lg font-bold mb-2">About Us</h3>
+          <p class="text-sm">
+            Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat
+            dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <!-- Column 2: Links -->
+        <div>
+          <h3 class="text-lg font-bold mb-2">Company</h3>
+          <ul class="text-sm">
+            <li><a href="#">About us</a></li>
+
+            <li><a href="#"> Legal Notice</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#"> Careers</a></li>
+            <li><a href="#">News & Article</a></li>
+            <li><a href="#">Legal Notice</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Categories -->
+        <div>
+          <h3 class="text-lg font-bold mb-2">Support</h3>
+          <ul class="text-sm">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Ticket Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
