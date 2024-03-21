@@ -1,0 +1,28 @@
+1. shade dite hobe
+
+2. banner slider position thik korte hobe
+
+3. bg color products form section theke bg remove korte hobe
+
+4: media query te  social media hight barate hobe.
+5. slider button e rounded black color dite hobe positon upore tolte hobe
+
+6. products section e  border abobg padidng dite hobe
+
+7. clients section er button remove korte hobe
+
+8. you name e mt dite hobe
+
+
+
+completed:
+
+1. products section
+
+2. client question section
+3. navbar complete
+4. banner complete
+5. checking Professional Hockeys Club
+
+title para checkicking ok space ok 
+
